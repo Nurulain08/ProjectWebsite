@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Friends</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('IMAGE/backround 1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+
+        header {
+            background-color: #64315b;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ece4e4;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+
+        nav a.active, nav a:hover {
+            background-color: #eeb7d1;
+            border-radius: 5px;
+        }
+
+        /* Friends Section */
+        .friends-section {
+            text-align: center; /* Centers the whole section */
+            padding: 50px 20px;
+            margin: 0 auto;
+        }
+
+        .friends-section h1 {
+            font-size: 2.5em;
+            color: #64315b;
+            margin-bottom: 20px;
+        }
+
+        .friend-category {
+            margin-bottom: 40px;
+        }
+
+        .friend-category h2 {
+            font-size: 1.8em;
+            color: #64315b;
+            margin-bottom: 15px;
+        }
+
+        .friend-details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid #64315b;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto; /* Centers the card */
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .friend-images {
+            display: flex;
+            gap: 15px; /* Space between images */
+            margin-bottom: 15px;
+            justify-content: center; /* Centers images horizontally */
+        }
+
+        .friend-images img {
+            width: calc(250px); /* Adjusts image width */
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #64315b;
+        }
+
+        .friend-description {
+            text-align: center; /* Centers the description text */
+            margin-top: 10px;
+        }
+
+        .friend-description p {
+            margin: 5px 0;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">About me</a>
+            <a href="education.html">Education</a>
+            <a href="family.html">Family</a>
+            <a href="friends.html" class="active"> Friends</a>
+            <a href="experience.html">Experience</a>
+    </header>
+
+    <div class="friends-section">
+        <h1>My Friends👭👭 </h1>
+
+        <!-- Childhood Friends Section -->
+        <div class="friend-category">
+            <h2>Childhood Friends👧🏻</h2>
+            <div class="friend-details">
+                <!-- Images -->
+                <div class="friend-images">
+                    <img src="IMAGE/childhoodfriend2.jpg" alt="Childhood Friend">
+                    <img src="IMAGE/childhoodfriend.jpg" alt="Childhood Friend">
+                </div>
+                <!-- Description Below -->
+                <div class="friend-description">
+                    <p><strong>Name:</strong> Ainae </p>
+                    <p> 
+                         My childhood friend and I have shared an incredible bond for over 20 years, filled with countless memories and experiences that have shaped our lives.
+                         From our early days of school to growing up together, we were always there for each other, supporting one another through both good times and challenges. 
+                         Our friendship has always been built on trust, laughter, and mutual understanding.
+                         In 2023, my friend got married, and soon after, they moved to Johor. 
+                         While this change has led to us seeing each other less frequently, the distance has not diminished the strength of our connection. 
+                         Despite the physical distance, we continue to stay in touch and share updates about our lives, reminding each other of the love and friendship that has always existed between us.
+                        Although we miss the times we spent together, the memories we've created over the years remain close to my heart, and I know that no matter where life takes us, our friendship will always endure.</p>
+                </div>
+            </div>     
+
+        <!-- High School Friends Section -->
+        <div class="friend-category">
+            <h2>High School Friends 🏫</h2>
+            <div class="friend-details">
+                <!-- Images Container -->
+                <div class="friend-images">
+                    <img src="IMAGE/highschool.jpg" alt="High School Friends">
+                    <img src="IMAGE/highschool2.jpeg" alt="High School Friends">
+                </div>
+                <!-- Description Below -->
+                <div class="friend-description">
+                    <p><strong>Group Name:</strong> Fatin, Azyra & Aisya</p>
+                    <p>I first met my childhood friend as classmates at Sekolah Menengah Kebangsaan Undang Rembau,Negeri Sembilan. We have been friends for 10 years. 
+                       During our time in school, we created countless fun and unforgettable memories together.
+                       After school, one of our favorite things to do was grab a meal at KFC, where we’d talk and laugh for hours.
+                       Our friendship grew stronger as we shared experiences like studying for exams, participating in school events, and navigating the ups and downs of teenage life. 
+                       These moments helped form the strong bond we share today.
+                       Even now, we still laugh about those carefree days, and the memories from high school continue to bring us closer, no matter where life takes us.
+                    </p>
+                </div>
+            </div>
+
+        <!-- Diploma Friends Section -->
+        <div class="friend-category">
+            <h2>Diploma Friends🎓</h2>
+            <div class="friend-details">
+                <!-- Images Container -->
+                <div class="friend-images">
+                <img src="IMAGE/diplomafriends.jpg" alt="Diploma Friends">
+                <img src="IMAGE/diplomafriends2.jpg" alt="Diploma Friends">
+            </div>
+             <!-- Description Below -->
+            <div class="friend-description">
+                <p><strong>Group Name:</strong> Balqis, Damia & Farhana</p>
+                <p>I met my diploma friends at UiTM Rembau, Negeri Sembilan which is when we were assigned as groupmates for various group assignments from Semester 1 to Semester 5. 
+                   Over the course of our studies, we became a close-knit group, supporting each other through every challenge.
+                   We shared many memories such as working late nights to finish assignments, studying together for exams, and celebrating small victories along the way. 
+                   It wasn’t just about academics; it was also about the laughter, and the sense of teamwork that helped us push through.
+                   As we near the end of our diploma journey, I find myself reflecting on how much I will miss them.
+                   Our time as diploma students has been a beautiful chapter in my life, filled with growth and friendship.
+                   I will cherish the memories we’ve made and hope that, no matter where life takes us, we will remain friends for years to come. 
+                </p>
+            </div>
+        </div>
+
+        <!-- Housemate Friends Section -->
+        <div class="friend-category">
+            <h2>Housemate Friends 🏠</h2>
+            <div class="friend-details">
+                <!-- Images Container -->
+                <div class="friend-images">
+                    <img src="IMAGE/housemates2.jpeg" alt="Housemate Friends">
+                    <img src="IMAGE/housemate3.jpeg" alt="Housemate Friends">
+                </div>
+                <!-- Description Below -->
+                <div class="friend-description">
+                    <p><strong>Group Name:</strong> Aula, Farah, Qila, Aisyah, Esah, Insyi & Nurin</p>
+                    <p>I met my housemate when we both moved into the UiTM Rembau college in Semester 1.
+                         At first, we were both shy and hesitant to talk to each other, but as time passed, we began to bond over small, everyday moments. 
+                         We shared food, watched movies together, and even took turns cleaning the toilet, making it feel like a shared responsibility and a fun part of our daily routine. 
+                         Hanging out after classes became something we looked forward to, and our friendship grew stronger with each passing day.
+                         We only lived together for 2 semesters, as we were assigned to different houses in the following semesters. 
+                         Though we didn’t see each other as much after that, the memories we made during our time together will always stay with me. 
+                         From the laughter-filled moments to the simple joys of sharing meals and stories, these experiences have created a lasting bond between us. 
+                         Despite the distance, I know that our friendship will never fade. We may not have shared a house for long, but the memories we created will always be a cherished part of my university life.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

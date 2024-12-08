@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Education</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('IMAGE/backround 1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #64315b;
+        }
+
+        header {
+            background-color: #64315b;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ece4e4;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+
+        nav a.active, nav a:hover {
+            background-color: #eeb7d1;
+            border-radius: 5px;
+        }
+
+        /* Education Section */
+        .education-section {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            flex-direction: column; /* Stack the content vertically */
+            min-height: 100vh; /* Ensure it takes up at least the full height of the screen */
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Cards Container */
+        .card-container {
+            display: flex;
+            justify-content: center; /* Centers the cards horizontally */
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+            max-width: 1000px; /* Optional: Set max width to prevent cards from spreading too wide */
+        
+        }
+
+        /* Individual Card */
+        .card {
+            width: 300px; /* Fixed width for the card */
+            border: 2px solid #64315b;
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: white;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; /* Space between cards */
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #64315b;
+        }
+
+        .card img {
+            width: 100%; /* Ensures the image fits the card width */
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .card p {
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">About me</a>
+            <a href="education.html" class="active">Education</a>
+            <a href="family.html">Family</a>
+            <a href="friends.html">Friends</a>
+            <a href="experience.html">Experience</a>
+        </nav>
+    </header>
+
+    <div class="education-section">
+        <h1>My Education📕🎓</h1>
+
+        <!-- Box that wraps the cards -->
+        <div class="card-box">
+            <div class="card-container">
+
+              <!-- Kindergarten Card --> 
+        <div class="card">
+            <h2>Kindergarten</h2>  
+            <img src="IMAGE/kindergarten.jpg" alt="Kindergarten" style="width: auto; height: 150px; object-fit: cover;">            
+            <p>2007 - 2008</p>
+            <p>Tadika Perpaduan Chembong</p>
+        </div>
+
+                <!-- Primary School Card --> 
+        <div class="card">
+                <h2>Primary School</h2>  
+                <img src="IMAGE/primary school.png" alt="Primary School Image" style="width: auto; height: 150px; object-fit: cover;">            
+                <p>2009 - 2014</p>
+                <p>Sekolah Kebangsaan Undang Rembau</p>
+            </div>
+
+            <!-- High School Card -->
+            <div class="card">
+                <h2>High School</h2>
+                <img src="IMAGE/smkur.jpg" alt=" High School Image" style="width: auto; height: 150px; object-fit: cover;">
+                <p>2015 - 2019</p>
+                <p>Sekolah Menengah Kebangsaan Undang Rembau</p>
+            </div>
+
+            <!-- Institution Card -->
+            <div class="card">
+                <h2>Institution</h2>
+                <img src="IMAGE/uitm-rembau.jpg" alt=" Institution Image" style="width: auto; height: 150px; object-fit: cover;">
+                <p>2022 - Present</p>
+                <p>Universiti Teknologi MARA, UiTM Kampus Rembau</p>
+                <p>Diploma in Information Management</p>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

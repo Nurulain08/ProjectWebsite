@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('IMAGE/backround 1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+        }
+        header {
+            background-color: #64315b;
+            padding: 10px;
+        }
+        nav a {
+            color: #ece4e4;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+        nav a.active, nav a:hover {
+            background-color: #eeb7d1;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .round-image {
+            width: 100px;        
+            height: 100px;       
+            object-fit: cover;   
+            border-radius: 50%;  
+            border: 2px solid #ccc; 
+            margin-top: 10px;    
+            margin-right: 10px;  
+        }
+
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #64315b;
+            color: #fff;
+            padding: 12px;
+            font-size: 18px;
+            text-align: left;
+        }
+
+        td {
+            padding: 15px;
+            font-size: 16px;
+            color: #555;
+            border-bottom: 1px solid #ddd;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="biodata.html" class="active">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="friends.html">Friends</a>
+        <a href="experience.html">Experience</a>
+    </nav>
+</header>
+
+<section class="content">
+    
+    <table>
+        <tr>
+            <th>Details</th>
+            <th>Information</th>
+        </tr>
+
+        <tr>
+            <td><span class="icon">👤</span> Name</td>
+            <td>Nurul Ain Binti Nordin</td>
+        </tr>
+
+        <tr>
+            <td><span class="icon">🎂</span> Date Of Birth</td>
+            <td>18 August</td> 
+        </tr>
+
+        <tr>
+            <td><span class="icon">📍</span> Born Place</td>
+            <td>Taiping, Perak</td>
+        </tr>
+
+        <tr>
+            <td><span class="icon"> 🏡 </span> Current Residence</td>
+            <td>Rembau, Negeri Sembilan</td>
+        </tr>
+
+        <tr>
+            <td><span class="icon"> 🚩 </span> Nationally</td>
+            <td>Malaysia</td>
+        </tr>
+
+        <tr>
+            <td><span class="icon"> 🕌 </span> Religion</td>
+            <td>Islam</td> 
+        </tr>
+
+        <tr>
+            <td><span class="icon">🏸</span> Hobby</td>
+            <td>Reading, Hiking, Playing Badminton<br>
+                <img src="IMAGE/book.webp" alt="Reading Book" class="round-image"> 
+                <img src="IMAGE/hiking.jpg" alt="Hiking" class="round-image">  
+                <img src="IMAGE/badminton.jpg" alt="Badminton" class="round-image">
+            </td>
+        </tr>
+
+        <tr>
+            <td><span class="icon">🍲</span> Favorite Food</td>
+            <td>Udang Sambal<br>   
+                <img src="IMAGE/udang sambal.webp" class="round-image"> </td>
+        </tr>
+
+        <tr>
+            <td><span class="icon">🧋</span> Favorite Drink </td>
+            <td>Green Tea <br>
+            <img src="IMAGE/green tea.jpg" alt="Green Tea" class="round-image"></td>
+        </tr>
+
+        <tr>
+            <td><span class="icon">🎬</span> Favorite Movie </td>
+            <td>Damsel, How To Train Your Dragon<br>
+            <img src="IMAGE/Damsell.jpg" alt="Movie" class="round-image">
+            <img src="IMAGE/how-to-train-your-dragon.jpg" alt="Movie" class="round-image"></td>
+        </tr>
+
+        <tr>
+            <td><span class="icon">🎶</span> Favorite Song </td>
+            <td>Rumah Singgah by Fabio Asher <br>
+            <img src="IMAGE/fabioasher.jpeg" alt="Artist" class="round-image"></td>
+        </tr>
+
+    </table>
+</section>
+
+</body>
+</html>

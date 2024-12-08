@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('IMAGE/backround 1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+        }
+
+        header {
+            background-color: #64315b;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ece4e4;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 8px 15px;
+            display: inline-block;
+        }
+
+        nav a.active, nav a:hover {
+            background-color: #eeb7d1;
+            border-radius: 5px;
+        }
+
+        /* Family Section */
+        .family-section {
+            display: block; /* Ensures proper layout */
+            margin: 0 auto; /* Centers the entire section */
+            width: 100%; /* Ensures it spans the full width */
+            text-align: center; /* Centers the text horizontally */
+            padding: 50px 20px; /* Adds padding for better spacing */
+        }
+
+        .family-section h1 {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically (if needed) */
+            text-align: center; /* Ensures text inside is centered */
+            margin: 0 auto; /* Centers the heading within its container */
+            color: #64315b;
+            font-size: 2.5em; /* Adjust size for better visibility */
+            margin-bottom: 20px;   
+        }
+
+        /* Cards Container */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Centers the cards horizontally */
+            gap: 20px;
+        }
+
+        .family-image 
+        {
+        display: block; /* Ensures the image appears on its own line */
+        margin: 20px auto; /* Centers the image and adds space above and below */
+        max-width: 300px; /* Ensures the image scales within the section */
+        height: auto; /* Maintains aspect ratio */
+        border-radius: 10px; /* Optional: Adds rounded corners */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for a polished look */
+        border: 3px solid #64315b; /* Adds a border with color matching the theme */
+        }
+
+        /* Individual Card */
+        .card {
+            width: 300px; /* Fixed width for the card */
+            border: 2px solid #64315b;
+            border-radius: 10px;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: white;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #64315b;
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px; /* Creates space below the image */
+        }
+
+        .card p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="biodata.html">About me</a>
+            <a href="education.html">Education</a>
+            <a href="family.html" class="active">Family</a>
+            <a href="friends.html">Friends</a>
+            <a href="experience.html">Experience</a>
+        </nav>
+    </header>
+
+    <div class="family-section">
+        <h1>My Family 💗</h1>
+        <img src="IMAGE/Family.jpg" alt="Family Photo" class="family-image">
+        <div class="card-container">
+            <!-- Cards for family members go here -->
+        </div>
+    </div>
+        
+        <!-- Family Cards -->
+        <div class="card-container">
+            <!-- Parents Card -->
+            <div class="card">
+                <h2>Parents👨🏻👩🏻</h2>
+                <img src="IMAGE/Parents.jpg" alt="Parents Image">
+                <p>This is my dad & mom</p>
+                <p><b>Occupation:</b> Military Retiree & Housewife</p>
+            </div>
+
+            <!-- Siblings Card -->
+            <div class="card">
+                <h2>Siblings 1 🦁</h2>
+                <img src="IMAGE/sib 1.jpeg" alt="Siblings Image">
+                <p>This is my sister and my brother in law</p>
+                <p><b>Details:</b> They married since 2020 and get 1 son. She is the eldest daughter who is very strict 🤣.</p>
+            </div>
+
+            <!-- Siblings Card -->
+            <div class="card">
+                <h2>Siblings 2 🐅</h2>
+                <img src="IMAGE/sib 2.jpeg" alt="Siblings Image">
+                <p>This is my first brother and my first sister in law</p>
+                <p><b>Details:</b> He is a quiet and hardworking person.</p>
+            </div>
+
+             <!-- Siblings Card -->
+             <div class="card">
+                <h2>Siblings 3 🐨</h2>
+                <img src="IMAGE/sib 3.jpg" alt="Siblings Image">
+                <p>This is my second brother and my sister in law</p>
+                <p><b>Details:</b> He is a fierce person. </p>
+            </div>
+
+             <!-- Siblings Card -->
+             <div class="card">
+                <h2>Siblings 4 🐼</h2>
+                <img src="IMAGE/sib 4.jpeg" alt="Siblings Image">
+                <p>This is my third brother and sister in law</p>
+                <p><b>Details:</b> They are food lovers and make Honey Cornflake business.</p>
+            </div>
+
+             <!-- Siblings Card -->
+             <div class="card">
+                <h2>Siblings 5 🐤</h2>
+                <img src="IMAGE/sib 5.jpeg" alt="Siblings Image">
+                <p>This is my second sister and my brother in law</p>
+                <p><b>Details:</b>They are a funny couple ans get a cute daughter.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
